@@ -1,0 +1,44 @@
+.title {
+    font-size: 60px;
+    color: darkturquoise;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.panel{
+    position: sticky;
+    background-color: greenyellow;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main{
+    padding-bottom: 10px;
+}
+
+.welcome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.panel a{
+    float: left;
+    color:cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: dotted;
+    font-size: 20px;
+}
+
+.text{
+    text-align: center;
+}
+.sponsors{
+    background-color: white;
+}
