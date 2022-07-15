@@ -14,6 +14,17 @@
 #logo{
     width: 40%;
 }
+
+#importantBox{
+    border: 1px red;
+    background-color: yellow;
+    
+}
+
+#importantBox p{
+    text-shadow: 2px 2px white;
+}
+
 .panel{
     position: sticky;
     background-color: greenyellow;
@@ -23,19 +34,14 @@
     overflow: hidden;
 }
 
-h1{
-    font-size: 90px; 
-    font-family: "waterlily";
-    font-weight: 300;
-    color: aquamarine;
-    
-}
-
-h2{
-    font-size: 30px;
-}
-
 .panel a{
+    float: left;
+    color:cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: dotted;
+    font-size: 20px;
     margin: 1px;
 }
 
@@ -54,42 +60,55 @@ h2{
     color: darkmagenta;
 }
 
+h1{
+    font-size: 80px; 
+    font-family: "waterlily";
+    font-weight: 300;
+    color: aquamarine;
+    text-shadow: 2px 2px gold;
+}
+
+h2{
+    font-size: 50px;
+    color: azure;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 30px;
+    font-family: cursive ;
+}
+
+#goldText{
+    color: gold;
+    font-size: 60px;
+    text-shadow: 2px 2px darkcyan;
+}
+
+li{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .main{
     background-color: #0088ce;
     background-image: linear-gradient(#3e6197 ,#0088ce 5%);
 }
 
+
 .welcome{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 40%;
     padding: 10px 10px;
-}
-
-.panel a{
-    float: left;
-    color:cornflowerblue;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: dotted;
-    font-size: 20px;
 }
 
 .pagebottom{
     background-image: url(images/natura.jpg);
     position: relative;
     vertical-align: bottom;
-    background-repeat: repeat-x;
-    background-size: auto;
-}
-
-.background{
-    background-image: url(images/natura.jpg);
-    vertical-align: bottom;
-    position:static;
-    bottom: 0;
     background-repeat: repeat-x;
     background-size: auto;
 }
