@@ -5,6 +5,23 @@
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
+
+
+#logo{
+    width: 40%;
+}
+
+#importantBox{
+    border: 1px red;
+    background-color: yellow;
+    
+}
+
+#importantBox p{
+    text-shadow: 2px 2px white;
+}
+
+
 .panel{
     position: sticky;
     background-color: greenyellow;
@@ -14,17 +31,6 @@
     overflow: hidden;
 }
 
-.main{
-    padding-bottom: 10px;
-}
-
-.welcome{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 10px 10px;
-}
 
 .panel a{
     float: left;
@@ -34,7 +40,92 @@
     padding: 10px 10px;
     text-decoration: dotted;
     font-size: 20px;
+    margin: 1px;
 }
+
+.panel a:hover{
+    color: yellow;
+    background-color: green;
+}
+
+#panel_special{
+    background-color: darkmagenta;
+    color: yellow;
+}
+
+#panel_special:hover{
+    background-color: yellow;
+    color: darkmagenta;
+}
+
+h1{
+    font-size: 80px; 
+    font-family: "waterlily";
+    font-weight: 300;
+    color: aquamarine;
+    text-shadow: 2px 2px gold;
+}
+
+h2{
+    font-size: 50px;
+    color: azure;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 30px;
+    font-family: cursive ;
+}
+
+#goldText{
+    color: gold;
+    font-size: 60px;
+    text-shadow: 2px 2px darkcyan;
+}
+
+li{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.main{
+    padding-bottom: 10px;
+}
+
+
+.welcome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 40%;
+
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.panel a{
+    float: left;
+    color:cornflowerblue;
+    font-weight: bold;
+    text-align: center;
+
+    padding: 10px 10px;
+}
+
+
+.pagebottom{
+    background-image: url(images/natura.jpg);
+    position: relative;
+    vertical-align: bottom;
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+
 
 .text{
     text-align: center;
